@@ -7,6 +7,7 @@ FROM hackinglab/alpine-base-hl:3.2
 LABEL maintainer=<ivan.buetler@compass-security.com>
 
 ENV TERRAFORM_VERSION=0.15.3
+#ENV TERRAFORM_VERSION=1.6.2
 
 COPY --from=websocketd /go/bin/websocketd /usr/bin/websocketd
 
